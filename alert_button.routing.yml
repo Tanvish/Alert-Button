@@ -1,0 +1,7 @@
+alert_button.main:
+    path: '/alert'
+    default: 
+      _title: 'Alert Button'
+      _form: '\Drupal\alert_button\Form\AlertButton'
+    requirements:
+      _permission: 'access content'
